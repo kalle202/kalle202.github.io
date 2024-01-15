@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zeyada&display=swap');
+
+#pursuit{
+    background-color: #f8dd9f;
+}
+
+#pursuit div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
+    row-gap: 15px;
+    padding: 183px 0px;
+}
+
+#pursuit div h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+#pursuit div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#pursuit div button {
+    align-self: center;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#refinement{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 180px 180px;
+    align-items: center;
+}
+
+#refinement div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 4px;
+    padding-left: 90px;
+}
+
+#refinement div h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+#refinement div button{
+    align-self: start;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#refinement div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#refinement2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 180px 180px;
+    align-items: center;
+}
+
+#refinement2 div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 4px;
+    padding-right: 80px;
+}
+
+#refinement2 div h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+#refinement2 div button{
+    align-self: start;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#refinement2 div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#ysk {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#ysk div{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(1,1fr);
+}
+
+#ysk div img{
+    grid-area: 1/1/1/1;
+    height: 813px;
+    width: 100%;
+    object-fit: cover;
+
+}
+#ysk div a{
+    grid-area: 1/1/1/1;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+#getintouch{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8dd9f;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 140px 180px;
+}
+#getintouch div h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 80px;
+}
+#getintouch div h3 {
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+#getintouch div p {
+    padding:10px 0px;
+    font-size:18px;
+}
+
+#getintouch form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 15px;
+}
+
+#getintouch form input, #getintouch form textarea{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#getintouch form textarea {
+    height: 90px;
+    resize: none;
+}
+
+#getintouch form button {
+    align-self: end;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    #refinement{
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px 30px;
+    }
+    #refinement2{
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px 30px;
+        row-gap: 20px;
+    }
+    #refinement div{
+        padding-left: 0px;
+    }
+    #refinement2 div{
+        padding-right: 0px;
+    }
+    #pursuit div{
+        padding: 40px 10px;
+    }
+    #pursuit div h2{
+        font-size: 48px;
+    }
+    #pursuit div p{
+        font-size: 14px;
+    }
+    #refinement div h2{
+        font-size: 48px;
+    }
+    #getintouch{
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #ysk {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #ysk div img{
+        height: 500px;
+    }
+}
