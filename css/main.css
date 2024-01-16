@@ -157,6 +157,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 140px 180px;
+    justify-items: center;
 }
 #getintouch div h2 {
     font-family: 'DM Serif Display', serif;
@@ -259,6 +260,7 @@
     }
 
     #getintouch form, #getintouch form input, #getintouch form textarea {
+        min-width: 300px;
         max-width: 400px;
     }
     
