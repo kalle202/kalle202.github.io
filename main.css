@@ -250,8 +250,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    #getintouch form, #getintouch div{
-        max-width: 400px;
+
+    #getintouch div h2 {
+        font-size : 48px;
+    }
+    #getintouch div h3 {
+        font-size : 20px;
+    }
+
+    #getintouch form, #getintouch div, #getintouch form input, #getintouch form textarea, #getintouch form button {
+        max-width: 300px;
     }
     
 }
