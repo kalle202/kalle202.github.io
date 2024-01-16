@@ -248,3 +248,10 @@
         height: 500px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #getintouch form input, #getintouch form textarea{
+        max-width: 400px;
+    }
+    
+}
