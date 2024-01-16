@@ -250,7 +250,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    #getintouch form input, #getintouch form textarea{
+    #getintouch form, #getintouch div{
         max-width: 400px;
     }
     
