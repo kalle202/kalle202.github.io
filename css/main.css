@@ -262,11 +262,8 @@
         font-size : 14px;
     }
 
-  /*   #getintouch form, #getintouch form input, #getintouch form textarea {
-  
+    #getintouch form, #getintouch form input, #getintouch form textarea {
+        max-width: 300px;
     }
-    #getintouch form, #getintouch div {
-
-    } */
     
 }
