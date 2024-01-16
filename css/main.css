@@ -157,7 +157,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 140px 180px;
-    justify-items: center;
 }
 #getintouch div h2 {
     font-family: 'DM Serif Display', serif;
@@ -237,7 +236,7 @@
     }
     #getintouch{
         grid-template-columns: repeat(1,1fr);
-        padding: 30px 30px;
+        padding: 15px 15px;
     }
 }
 
@@ -253,15 +252,21 @@
 @media screen and (max-width: 768px) {
 
     #getintouch div h2 {
-        font-size : 48px;
+        font-size : 38px;
     }
     #getintouch div h3 {
-        font-size : 20px;
+        font-size : 14px;
     }
 
-    #getintouch form, #getintouch form input, #getintouch form textarea {
-        min-width: 300px;
-        max-width: 400px;
+    #getintouch div p {
+        font-size : 14px;
     }
+
+  /*   #getintouch form, #getintouch form input, #getintouch form textarea {
+  
+    }
+    #getintouch form, #getintouch div {
+
+    } */
     
 }
