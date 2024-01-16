@@ -257,9 +257,4 @@
     #getintouch div h3 {
         font-size : 20px;
     }
-
-    #getintouch form, #getintouch div, #getintouch form input, #getintouch form textarea, #getintouch form button {
-        max-width: 300px;
-    }
-    
 }
